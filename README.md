@@ -78,3 +78,8 @@ Este reto será evaluado sobre lo siguiente:
 * Indentación
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
+
+- Criado estrutura HTML com o link ao syle.css;
+- Criado a estrutura inicial menu;
+- baixado fontes e icones e incluindo links no HTML;
+- Criado Profile;
