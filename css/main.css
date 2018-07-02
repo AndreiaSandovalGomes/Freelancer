@@ -137,7 +137,6 @@ margin: 10px;
   align-self: center;
   justify-content: center;
 }
-
 .divisor1{
   display: flex;
   color: white;
@@ -150,11 +149,9 @@ margin: 10px;
   justify-content: center;
   padding-top: 0px;
 }
-
 .white{
   color: white;
 }
-
 .linha{
 width: 138px;
 margin: 0px;
@@ -162,12 +159,10 @@ margin-bottom: 30px;
 border: 0px;
 border-bottom: 8px solid #2c3e50;
 }
-
 .fotos{
   flex-direction: column;
   margin-bottom: 10px;
 }
-
 .foto{
   height: 340px;
   width: 469px;
@@ -175,7 +170,6 @@ border-bottom: 8px solid #2c3e50;
   margin: 0;
   margin: 20px;
 }
-
 article{
   display: flex;
   height: 770px;
@@ -188,7 +182,6 @@ article{
   justify-content: center;
   padding: 15px;
 }
-
 .conteudo{
   display: flex;
   flex-direction: column;
@@ -196,7 +189,6 @@ article{
   width: 978px;
   height: 490px;
 }
-
 .explanation{
 width: 978px;
 height: 70px;
@@ -206,7 +198,6 @@ margin: 0px;
 padding-bottom: 30px;
 margin-bottom: 0px;
 }
-
 .texto1{
   display: flex;
   margin-bottom: 45px;
@@ -217,14 +208,12 @@ margin-bottom: 0px;
   line-height: 40px;
   flex-direction: row;
 }
-
 .textoArticle{
   width: 510px;
   height: 230px;
   text-align: left;
   font-size: 28px;
 }
-
 .icon-download{
   width: 284px;
   height: 68px;
@@ -235,7 +224,6 @@ margin-bottom: 0px;
   margin-top: 40px;
   margin-left: 35%;
 }
-
 .formulario{
   display: flex;
   position: relative;
@@ -248,14 +236,12 @@ margin-bottom: 0px;
   padding: 60px 120px;
   margin-top: 0px;
   }
-
 .form{
   width: 978px;
   height: 125px;
   border: 0px;
   border-bottom: 3px solid #d6cfcf;
 }
-
 .contact{
   padding-top: 30px;
   font-size: 65px;
@@ -268,12 +254,10 @@ margin-bottom: 0px;
   height: 280px;
   padding-bottom: 130px;
 }
-
 input{
   font-size: 33px;
   padding-bottom: 35px;
 }
-
 .button{
   display: flex;
   color: white;
@@ -283,7 +267,6 @@ input{
   width: 102px;
   height: 64px;
 }
-
 footer{
   height: 401px;
   width: 100%;
@@ -296,8 +279,7 @@ footer{
   font-size: 28px;
   padding-top: 28px;
   padding-left: 0px;
-  }
-
+}
 .location{
   width: 295px;
   height: 200px;
@@ -306,7 +288,6 @@ footer{
   align-items: center;
   text-align: center;
 }
-
 h3{
   font-size: 38px;
   font-weight: 900;
