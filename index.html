@@ -3,30 +3,29 @@
   <head>
     <meta charset="utf-8">
       <link rel="stylesheet" href="css/main.css">
-      <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,700,900" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
       <link href="https://file.myfontastic.com/JBgmcmo6gmg8t5u5oJSqdC/icons.css" rel="stylesheet">
         <title>Freelancer</title>
   </head>
   <body>
 
     <header>
-        <div class="start">
-       <h1 class="start">START BOOTSTRAP</h1></div>
-       </div>
-       <div class="menu">
-       <h2 class="end items">PORTFOLIO</h2>
+      <div class="start">
+        <h1 class="start">START BOOTSTRAP</h1>
+      </div>
 
-
-       <h2 class="end itens">ABOUT</h2>
-
-
-       <h2 class="end itens">CONTACT</h2>
-     </div>
+      <div class="navBar">
+        <div><h2 class="end">PORTFOLIO</h2></div>
+        <div><h2 class="end">ABOUT</h2></div>
+        <div><h2 class="end">CONTACT</h2></div>
+      </div>
 
    </header>
 
     <nav class="profile">
-      <img src="assets/images/profile.png">
+      <div class="imgProfile">
+      <img src="assets/images/profile.png" width="347px" height="347px">
+    </div>
       <h1 class="title">START BOOTSTRAP</h1>
       <div class="divisor">
         <hr class="linha"></hr>
@@ -34,20 +33,22 @@
         <hr class="linha"></hr>
       </div>
       <p class="experience">Web Developer - Graphic Artist - User Experience
-        Desinger</p>
-
-    </nav>
-
+        Designer</p>
+      </nav>
 
 
-   <div class="imagesPortfolio">
-     <div class="texto">
+
+   <main class="imagesPortfolio">
+
        <h2 class="historico">PORTFOLIO</h2>
-       <hr class="linha"></hr>
+       <div class="divisor1">
+       <hr class="linha1"></hr>
        <i class="icon-star"></i>
-       <hr class="linha"></hr>
-     </div>
-     <div class="fotos1">
+       <hr class="linha1"></hr>
+       </div>
+
+    <div class="fotos">
+    <div class="fotos1">
        <img class="foto"src="assets/images/cabin.png">
        <img class="foto"src="assets/images/cake.png">
        <img class="foto"src="assets/images/circus.png">
@@ -58,20 +59,25 @@
        <img class="foto"src="assets/images/submarine.png">
      </div>
     </div>
-
+  </main>
     <article>
-      <h1>ABOUT</h1>
-      <div class="texto">
-        <p>Freelancer is a free bootstrap theme created by Start Boodstrap. The
+      <h1 class="explanation">ABOUT</h1>
+      <div class="divisor">
+      <hr class="linha"></hr>
+      <i class="icon-star"></i>
+      <hr class="linha"></hr>
+    </div>
+      <div class="texto1">
+        <p class="textoArticle">Freelancer is a free bootstrap theme created by Start Boodstrap. The
           download includes the complete source files including HTML, CSS, and
           JavaScript as well as optional LESS stylesheets for easy customization.
         </p>
-        <p>Whether you're a student looking to showcase your work, a professional
+        <p class="textoArticle">Whether you're a student looking to showcase your work, a professional
           looking to attract clients, or a graphic artist looking to share your
           projects, this template is the perfect starting point!
         </p>
       </div>
-        <i class="icon-star"></i>
+      <i class="icon-download">Download Theme</i>
 
       </article>
 
@@ -86,7 +92,7 @@
       <input class="button" type="button" value="Send">
     </form>
 </div>
-      <div class="rodape">
+      <footer>
        <div class="location">
          <h3>LOCATION<h3>
             <p>2215 John Daniel Drive Clark, MO 65243<p>
@@ -106,11 +112,11 @@
               by Start Bootstrap.</p>
 
         </div>
-      </div>
 
-      <footer>
+</footer>
+     <div class="rodape">
         <p>&copy; Copyrigth Your Website 2018</P>
-      </footer>
+      </div>
 
  </body>
 </html>
